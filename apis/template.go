@@ -20,8 +20,8 @@ package apis
 import (
 	"k8s.io/apimachinery/pkg/runtime"
 
-	samplev1alpha1 "github.com/crossplane/provider-template/apis/milvus/v1alpha1"
-	templatev1alpha1 "github.com/crossplane/provider-template/apis/v1alpha1"
+	samplev1alpha1 "github.com/milvus-io/provider-milvus/apis/milvus/v1alpha1"
+	templatev1alpha1 "github.com/milvus-io/provider-milvus/apis/v1alpha1"
 )
 
 func init() {

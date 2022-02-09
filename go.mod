@@ -1,4 +1,4 @@
-module github.com/crossplane/provider-template
+module github.com/milvus-io/provider-milvus
 
 go 1.16
 

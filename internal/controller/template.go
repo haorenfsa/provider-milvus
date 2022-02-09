@@ -22,8 +22,8 @@ import (
 
 	"github.com/crossplane/crossplane-runtime/pkg/logging"
 
-	"github.com/crossplane/provider-template/internal/controller/config"
-	"github.com/crossplane/provider-template/internal/controller/milvus"
+	"github.com/milvus-io/provider-milvus/internal/controller/config"
+	"github.com/milvus-io/provider-milvus/internal/controller/milvus"
 )
 
 // Setup creates all Template controllers with the supplied logger and adds them to
