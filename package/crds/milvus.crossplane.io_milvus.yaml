@@ -6,18 +6,18 @@ metadata:
   annotations:
     controller-gen.kubebuilder.io/version: v0.6.2
   creationTimestamp: null
-  name: mytypes.sample.template.crossplane.io
+  name: milvus.milvus.crossplane.io
 spec:
-  group: sample.template.crossplane.io
+  group: milvus.crossplane.io
   names:
     categories:
     - crossplane
     - managed
     - template
-    kind: MyType
-    listKind: MyTypeList
-    plural: mytypes
-    singular: mytype
+    kind: Milvus
+    listKind: MilvusList
+    plural: milvus
+    singular: milvus
   scope: Cluster
   versions:
   - additionalPrinterColumns:
@@ -36,7 +36,7 @@ spec:
     name: v1alpha1
     schema:
       openAPIV3Schema:
-        description: A MyType is an example API type.
+        description: A Milvus is an example API type.
         properties:
           apiVersion:
             description: 'APIVersion defines the versioned schema of this representation
@@ -51,7 +51,7 @@ spec:
           metadata:
             type: object
           spec:
-            description: A MyTypeSpec defines the desired state of a MyType.
+            description: A MilvusSpec defines the desired state of a Milvus.
             properties:
               deletionPolicy:
                 default: Delete
@@ -63,7 +63,7 @@ spec:
                 - Delete
                 type: string
               forProvider:
-                description: MyTypeParameters are the configurable fields of a MyType.
+                description: MilvusParameters are the configurable fields of a Milvus.
                 properties:
                   configurableField:
                     type: string
@@ -115,10 +115,10 @@ spec:
             - forProvider
             type: object
           status:
-            description: A MyTypeStatus represents the observed state of a MyType.
+            description: A MilvusStatus represents the observed state of a Milvus.
             properties:
               atProvider:
-                description: MyTypeObservation are the observable fields of a MyType.
+                description: MilvusObservation are the observable fields of a Milvus.
                 properties:
                   observableField:
                     type: string

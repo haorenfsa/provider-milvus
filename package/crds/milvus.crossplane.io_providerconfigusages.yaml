@@ -6,9 +6,9 @@ metadata:
   annotations:
     controller-gen.kubebuilder.io/version: v0.6.2
   creationTimestamp: null
-  name: providerconfigusages.template.crossplane.io
+  name: providerconfigusages.milvus.crossplane.io
 spec:
-  group: template.crossplane.io
+  group: milvus.crossplane.io
   names:
     categories:
     - crossplane
